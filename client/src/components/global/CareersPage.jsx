@@ -38,20 +38,7 @@ const CareersPage = () => {
 
   return (
     <div className="min-h-screen bg-white font-sans overflow-hidden">
-      {/* Premium Navigation */}
-      <nav className="border-b border-gray-100 bg-white/95 backdrop-blur-xl sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-8 py-6 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-3xl font-bold tracking-tighter text-gray-900">
-            Design<span className="text-violet-600">Sourcing</span>
-          </a>
-          <a 
-            href="/register" 
-            className="px-7 py-3.5 text-sm font-semibold border border-gray-200 rounded-3xl hover:border-violet-300 hover:text-violet-700 transition-all duration-300"
-          >
-            Become a Reseller
-          </a>
-        </div>
-      </nav>
+   
 
       {/* Hero Section - More Dramatic */}
       <div className="relative bg-gradient-to-br from-zinc-950 via-black to-zinc-900 text-white pt-32 pb-28 overflow-hidden">

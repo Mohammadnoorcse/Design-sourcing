@@ -52,11 +52,11 @@ export default function Footer() {
           <div>
             <h5 className="text-base font-medium text-white mb-4">Support</h5>
             <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Track Order</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Returns & Exchanges</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Contact Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Style Match FAQ</a></li>
+              <li><Link to="/help-center" className="hover:text-white transition-colors">Help Center</Link></li>
+              <li><Link to="/track-order" className="hover:text-white transition-colors">Track Order</Link></li>
+              <li><Link to="/returns-exchanges" className="hover:text-white transition-colors">Returns & Exchanges</Link></li>
+              <li><Link to="/contact-us"  className="hover:text-white transition-colors">Contact Us</Link></li>
+              
             </ul>
           </div>
 
@@ -64,8 +64,8 @@ export default function Footer() {
           <div>
             <h5 className="text-base font-medium text-white mb-4">Company</h5>
             <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Vendor Portal</a></li>
+              <li><Link to="/about-us" className="hover:text-white transition-colors">About Us</Link></li>
+          
               <li><Link to="/careers" className="hover:text-white transition-colors">Careers</Link></li>
               <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
               <li><Link to="/terms-service" className="hover:text-white transition-colors">Terms of Service</Link></li>

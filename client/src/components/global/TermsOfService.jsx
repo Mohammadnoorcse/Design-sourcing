@@ -3,20 +3,7 @@ import { FileText, Award, Shield, AlertTriangle, Clock, Users, ArrowLeft, CheckC
 const TermsOfService = () => {
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Elegant Navigation */}
-      <nav className="border-b border-gray-100 bg-white/90 backdrop-blur-lg sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-3xl font-bold tracking-tight text-gray-900">
-            Design<span className="text-violet-600">Sourcing</span>
-          </a>
-          <a 
-            href="/register" 
-            className="flex items-center gap-2 px-6 py-3 text-sm font-medium text-gray-600 hover:text-gray-900 border border-gray-200 rounded-3xl hover:border-violet-200 transition-all hover:shadow-sm"
-          >
-            <ArrowLeft size={18} /> Back to Registration
-          </a>
-        </div>
-      </nav>
+   
 
       <div className="max-w-5xl mx-auto px-6 pt-20 pb-28">
         <div className="max-w-3xl mx-auto">

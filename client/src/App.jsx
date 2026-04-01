@@ -32,6 +32,11 @@ import LoginPage from "./pages/User/LoginPage";
 import PrivacyPolicy from "./components/global/PrivacyPolicy";
 import TermsOfService from "./components/global/TermsOfService";
 import CareersPage from "./components/global/CareersPage";
+import AboutUsPage from "./components/global/AboutUsPage";
+import ContactUsPage from "./components/global/ContactUsPage";
+import ReturnsExchangesPage from "./components/global/ReturnsExchangesPage";
+import TrackOrderPage from "./components/global/TrackOrderPage";
+import HelpCenterPage from "./components/global/HelpCenterPage";
 
 const App = () => {
   return (
@@ -48,6 +53,11 @@ const App = () => {
             <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
             <Route path="/terms-service" element={<TermsOfService/>} />
             <Route path="/careers" element={<CareersPage/>} />
+            <Route path="/about-us" element={<AboutUsPage/>} />
+            <Route path="/contact-us" element={<ContactUsPage/>} />
+            <Route path="/returns-exchanges" element={<ReturnsExchangesPage/>} />
+            <Route path="/track-order" element={<TrackOrderPage/>} />
+            <Route path="/help-center" element={<HelpCenterPage/>} />
 
 
           </Route>

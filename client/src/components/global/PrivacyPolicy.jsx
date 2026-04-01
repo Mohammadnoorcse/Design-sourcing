@@ -3,20 +3,7 @@ import { Shield, Lock, Users, Award, Eye, ArrowLeft, CheckCircle } from "lucide-
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Premium Navigation */}
-      <nav className="border-b border-gray-100 bg-white/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-6 py-5 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-3xl font-bold text-gray-900">
-            Design<span className="text-violet-600">Sourcing</span>
-          </a>
-          <a 
-            href="/register" 
-            className="flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-gray-600 hover:text-gray-900 border border-gray-200 rounded-2xl hover:border-gray-300 transition"
-          >
-            <ArrowLeft size={18} /> Back to Registration
-          </a>
-        </div>
-      </nav>
+    
 
       <div className="max-w-5xl mx-auto px-6 pt-16 pb-24">
         <div className="max-w-3xl mx-auto">
@@ -164,9 +151,7 @@ const PrivacyPolicy = () => {
             </div>
           </div>
 
-          <div className="text-center text-sm text-gray-500 mt-20">
-            © 2026 DropShip BD • Reseller Program • All Rights Reserved
-          </div>
+         
         </div>
       </div>
     </div>
