@@ -7,8 +7,7 @@ import DashboardLayout from "./layouts/DashboardLayout";
 import ProtectedRoute from "./ulitites/ProtectedRoute";
 
 
-const WholesaleHome = () => <h1>Wholesale Portal</h1>;
-const WholesaleHome1 = () => <h1>Wholesale Home</h1>;
+
 const AdminOverview = () => <h1>Full Admin Dashboard</h1>;
 const AdminOrders = () => <h1>Admin Orders</h1>;
 const Unauthorized = () => <h1>Unauthorized</h1>;
@@ -30,6 +29,9 @@ import ResellerAnalyticsPage from "./pages/Reseller/ResellerAnalyticsPage";
 import CheckoutPage from "./pages/Reseller/CheckoutPage";
 import RegisterPage from "./pages/User/RegisterPage";
 import LoginPage from "./pages/User/LoginPage";
+import PrivacyPolicy from "./components/global/PrivacyPolicy";
+import TermsOfService from "./components/global/TermsOfService";
+import CareersPage from "./components/global/CareersPage";
 
 const App = () => {
   return (
@@ -43,6 +45,11 @@ const App = () => {
             <Route path="/product" element={<AllProductsPage/>} />
             <Route path="/register" element={<RegisterPage/>} />
             <Route path="/login" element={<LoginPage/>} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+            <Route path="/terms-service" element={<TermsOfService/>} />
+            <Route path="/careers" element={<CareersPage/>} />
+
+
           </Route>
         </Route>
 

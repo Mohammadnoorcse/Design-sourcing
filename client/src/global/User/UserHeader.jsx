@@ -140,12 +140,12 @@ export default function UserHeader() {
                   <button className="py-2 border border-white/30 rounded text-center">
                     DROPSHIPPING
                   </button>
-                  <button className="py-2 border border-white/30 rounded text-center">
+                  <Link to="/register" className="py-2 border border-white/30 rounded text-center">
                     REGISTER
-                  </button>
-                  <button className="py-2 bg-white text-gray-900 rounded font-medium">
+                  </Link>
+                  <Link to="/login" className="py-2 bg-white text-gray-900 text-center rounded font-medium">
                     SIGN IN
-                  </button>
+                  </Link>
                 </div>
               </div>
             </div>

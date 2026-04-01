@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowUp, Facebook, Instagram, Twitter, Youtube, Send } from 'lucide-react'; // or any icon lib
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -65,9 +66,9 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li><a href="#" className="hover:text-white transition-colors">About Us</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Vendor Portal</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Terms of Service</a></li>
+              <li><Link to="/careers" className="hover:text-white transition-colors">Careers</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms-service" className="hover:text-white transition-colors">Terms of Service</Link></li>
             </ul>
           </div>
         </div>
