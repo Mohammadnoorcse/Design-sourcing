@@ -41,7 +41,7 @@ export default function UserHeader() {
               <div className="relative">
                 <input
                   type="text"
-                  placeholder="Sandals"
+                  placeholder="Searching..."
                   className="w-full pl-4 pr-10 py-2.5 border border-gray-300 rounded-md outline-none"
                 />
                 <Search

@@ -37,10 +37,12 @@ import ContactUsPage from "./components/global/ContactUsPage";
 import ReturnsExchangesPage from "./components/global/ReturnsExchangesPage";
 import TrackOrderPage from "./components/global/TrackOrderPage";
 import HelpCenterPage from "./components/global/HelpCenterPage";
+import ScrollToTop from "./components/global/ScrollToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+    <ScrollToTop/>
       <Routes>
         {/* Public / Normal Users */}
         <Route element={<ProtectedRoute allowedRoles={[5]} />}>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const trendingTabs = [
   { label: "Print Perfection", active: true },
@@ -58,7 +59,7 @@ function GridCard({ item }) {
   const isLarge = item.isFeatured;
 
   return (
-    <div
+    <Link to="/register"
       className={`
         group relative overflow-hidden rounded-xl h-[20rem] bg-white shadow-md hover:shadow-xl 
         transition-all duration-300
@@ -110,7 +111,7 @@ function GridCard({ item }) {
           </p>
         )}
       </div>
-    </div>
+    </Link>
   );
 }
 

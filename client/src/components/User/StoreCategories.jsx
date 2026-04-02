@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const categories = [
   {
@@ -33,7 +34,7 @@ const secondaryItems = [
 
 function CategoryCard({ title, imageUrl }) {
   return (
-    <div className="group relative aspect-[4/5] overflow-hidden rounded-xl">
+    <Link to="/register" className="group relative aspect-[4/5] overflow-hidden rounded-xl">
       <img
         src={imageUrl}
         alt={title}
@@ -46,7 +47,7 @@ function CategoryCard({ title, imageUrl }) {
           {title}
         </h3>
       </div>
-    </div>
+    </Link>
   );
 }
 

@@ -1,6 +1,6 @@
 // src/components/VendorsSection.jsx
 import React from 'react';
-import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Van } from 'lucide-react';
 
 const vendors = [
   {
@@ -83,7 +83,7 @@ export default function VendorsSection() {
 
                   {vendor.shipping && (
                     <p className="text-xs text-blue-600 flex items-center gap-1">
-                      🚚 {vendor.shipping}
+                      <Van className='text-amber-400'/> {vendor.shipping}
                     </p>
                   )}
                 </div>

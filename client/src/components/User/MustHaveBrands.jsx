@@ -1,5 +1,6 @@
 // src/components/ExclusiveBrands.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const brands = [
   {
@@ -44,7 +45,7 @@ export default function MustHaveBrands() {
           <div className="overflow-x-auto pb-6 scrollbar-hide">
             <div className="flex gap-6 md:gap-8 snap-x snap-mandatory">
               {brands.map((brand) => (
-                <div
+                <Link to="/register"
                   key={brand.name}
                   className="flex-shrink-0 w-[85vw] sm:w-[45vw] md:w-[32vw] lg:w-[24vw] snap-center"
                 >
@@ -71,7 +72,7 @@ export default function MustHaveBrands() {
                       )}
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

@@ -1,6 +1,6 @@
 // src/components/FreeShippingVendors.jsx
 import React from 'react';
-import { ArrowLeft, ArrowRight } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Van } from 'lucide-react';
 
 const vendors = [
   {
@@ -75,7 +75,7 @@ export default function FreeShippingVendors() {
                   <p className="text-sm text-gray-600">{vendor.minimum}</p>
                   
                   <p className="text-xs text-blue-600 flex items-center gap-1 font-medium">
-                    🚚 {vendor.shipping}
+                    <Van className='text-amber-400'/> {vendor.shipping}
                   </p>
                 </div>
               </div>

@@ -1,6 +1,6 @@
 // src/components/TrendForecast.jsx
 import React from 'react';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Van } from 'lucide-react';
 
 const products = [
   {
@@ -104,7 +104,7 @@ export default function TrendForecast() {
                 )}
                 {product.shipping && (
                   <p className="text-xs text-blue-600 flex items-center gap-1">
-                    🚚 {product.shipping}
+                    <Van className='text-amber-400'/> {product.shipping}
                   </p>
                 )}
                 <p className="text-xs text-gray-500">{product.colors}</p>

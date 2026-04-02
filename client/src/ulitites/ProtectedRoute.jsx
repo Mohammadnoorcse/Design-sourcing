@@ -3,7 +3,7 @@ import { Navigate, Outlet } from "react-router-dom";
 export default function ProtectedRoute({ allowedRoles = [] }) {
   const user = {
     name: "mohammadnoor",
-    role: Number(localStorage.getItem("role")) || 5,
+    role: Number(localStorage.getItem("role")) || 4,
   };
 
   // Redirect based on user role if current route is not allowed
